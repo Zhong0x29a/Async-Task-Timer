@@ -2,7 +2,7 @@ import contextvars
 import threading
 from typing import Tuple
 
-from utils.data_structure import ThreadSafeDict
+from data_structure import ThreadSafeDict
 
 
 class AsyncTaskTimer:
